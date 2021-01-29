@@ -9,6 +9,11 @@ Pakages you should install for these programmes to work
 # -Sidenote:
 you may see the 'itag' keyword being used to download the video in Yt_to_mp4.py- basically the 'itag' is an integer value that is used to denote a certain quality of resolution available of the video like: 240p, 360p, 480p, 720p ... and so on, now the 'itag' values for the video quality and fps are as-
 
+USEFULL ITAGS (they are all int values)- 
+360p = 18
+720p = 22
+1080p(HD) = 248
+
 # these can be seen by executing the line: 
    
   print(yt.streams.filter(only_video=True))
