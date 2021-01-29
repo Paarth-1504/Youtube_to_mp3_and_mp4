@@ -17,5 +17,5 @@ ys = yt.streams.get_by_itag(int(tag))
 
 #Starting download
 print("Downloading...")
-ys.download('C:/Users/Paarth Sharma/Videos')
+ys.download('C:/Users/your_name/videos folder')
 print("Download completed!!")
