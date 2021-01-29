@@ -4,7 +4,7 @@ import time
 from moviepy.editor import *
 from pytube import YouTube
 
-errors = 0
+errors = 0 # its a counter variable to keep track of any errors
 
 
 def download_files(url):
@@ -22,7 +22,7 @@ def download_files(url):
         video_clip.close()
 
         os.remove(mp4)
-        shutil.move(mp3, r"C:/Users/Paarth Sharma/Music")  # Replace this with your own output directory'
+        shutil.move(mp3, r"C:/Users/your_name/folder for music")  # Replace this with your own output directory'
 
     except Exception:
         if errors < 3:
